@@ -14,6 +14,7 @@ import { S6componenet3Component } from './scenario6/s6componenet3/s6componenet3.
 import { S5component1Component } from './scenario5/s5component1/s5component1.component';
 import { S5component2Component } from './scenario5/s5component2/s5component2.component';
 import { S5component3Component } from './scenario5/s5component3/s5component3.component';
+import {Module2Module} from './module2/module2.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +33,8 @@ import { S5component3Component } from './scenario5/s5component3/s5component3.com
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    Module2Module
   ],
   providers: [],
   bootstrap: [AppComponent]
